@@ -1,0 +1,23 @@
+<div class="container mt-5">
+    <form #userForm (ngSubmit)="onSubmit(userForm.value)" class="form-group">
+        <div class="container">
+            <label for="userName">User Name</label>
+            <input type="text" name=userName ngModel/>
+        </div>
+        <div class="container">
+            <label for="password">User Password</label>
+            <input type="text" name=password ngModel/>
+        </div>
+        <div class="container">
+            <label for="firstName">First Name</label>
+            <input type="text" name=firstName ngModel/>
+        </div>
+        <div class="container">
+            <label for="lastName">Last Name</label>
+            <input type="text" name=lastName ngModel/>
+        </div>
+        <div class="container">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
