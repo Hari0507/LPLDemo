@@ -10,6 +10,7 @@ export class UserService {
   constructor(private _httpClient:HttpClient) { }
 
   getUsers(){
+    console.log("Test")
     return this._httpClient.get(this.baseURL);
   }
 
