@@ -18,6 +18,7 @@ export class UserdetailComponent implements OnInit {
 
   onSubmit(frmData:NgForm)
   {
+    console.log("added something");
     this.addUser(frmData);
   }
 
