@@ -25,6 +25,7 @@ export class UserdetailComponent implements OnInit {
   getUsers(){
     this._userService.getUsers()
     .subscribe(res=>{
+      //Added comment in master branch
       this.users=res as Userdetails[];
     })
   }
