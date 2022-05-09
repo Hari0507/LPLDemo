@@ -19,6 +19,7 @@ export class UserService {
   }
 
   addUser(user:Userdetails){
+    //Added comments for git pull
     return this._httpClient.post(this.baseURL,user);
   }
 }
