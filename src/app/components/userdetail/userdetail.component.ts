@@ -32,6 +32,7 @@ export class UserdetailComponent implements OnInit {
   addUser(userInfo:any){
     this._userService.addUser(userInfo)
     .subscribe(res=>{
+      //Added comments for git fetch
       console.log(res);
     })
     
